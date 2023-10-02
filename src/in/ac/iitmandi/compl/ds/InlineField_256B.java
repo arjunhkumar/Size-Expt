@@ -9,7 +9,7 @@ import in.ac.iitmandi.compl.Utils;
  * @author arjun
  *
  */
-public primitive class LargeInlineField {
+public primitive class InlineField_256B {
 
 	private long x0;
 	private long x1;
@@ -44,7 +44,7 @@ public primitive class LargeInlineField {
 	private long x30;
 	private long x31;
 	
-	public LargeInlineField() {
+	public InlineField_256B() {
 		this.x0 = Utils.genRandomLong(4096);
 		this.x1 = Utils.genRandomLong(4096);
 		this.x2 = Utils.genRandomLong(4096);
