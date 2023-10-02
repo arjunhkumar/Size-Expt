@@ -9,7 +9,7 @@ import in.ac.iitmandi.compl.Utils;
  * @author arjun
  *
  */
-public primitive class InlineField_64B {
+public class InlineField_64B {
 
 	private long x0;
 	private long x1;
