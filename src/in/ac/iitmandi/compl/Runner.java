@@ -59,9 +59,9 @@ public class Runner {
 
 	private long operate(Container c1, Container c2) {
 		long val1 = c1.getFieldX1().getX0();
-		long val2= c1.getFieldX2().getX1();
-		long val3 = c2.getFieldZ2().getX1();
-		long val4= c2.getFieldY1().getX0();
+		long val2= c2.getFieldY1().getX0();
+		long val3 = c2.getFieldZ2().getX0();
+		long val4 = c1.getFieldX1().getX0();
 		long sum = val1 + val2 + val3 + val4;
 		return sum % SIZE;
 	}
