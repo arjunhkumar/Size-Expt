@@ -33,8 +33,8 @@ rm -r out
 #     echo "Completed Usecase - Primitive with static results"
 #     echo "Completed Usecase - Primitive with static results" >> out/out.log
 
-    echo "Finished Raytracer Compiled"
-echo "Finished Raytracer Compiled" >> out/out.log
+    echo "Finished Compiled Expt"
+echo "Finished Compiled Expt" >> out/out.log
 echo "-----------------------------------Compiled Run End------------------------------------" >> out/out.log
 
 # -----------------------------------------------------Interpreter run----------------------------------------------------
@@ -62,24 +62,24 @@ echo "-----------------------------------Compiled Run End-----------------------
 # echo "Finished Transaction-Analysis" >> out/out.log
 #
 #-----------------------------------------------------Normal run----------------------------------------------------
-    echo "-------------------------------Normal Run----------------------------------------" >> out/out.log
-    for i in 1 2 3  4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
-    do
-        $DEV_JDK/java -Xverify:none -XX:ValueTypeFlatteningThreshold=100000 -XX:+EnableArrayFlattening -cp size-expt-1.0.jar in.ac.iitmandi.compl.Main >> primitiveInstanceNormal$i.log 2>&1
-    done
-
-    echo "-----------------------------------------------------------------------" >> out/out.log
-    echo "Completed Usecase - Primitive"
-    echo "Completed Usecase - Primitive" >> out/out.log
-
-    echo "-----------------------------------------------------------------------" >> out/out.log
-    for i in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
-    do
-        $DEV_JDK/java -Xverify:none -XX:ValueTypeFlatteningThreshold=0 -cp size-expt-1.0.jar in.ac.iitmandi.compl.Main >> nonprimitiveInstanceNormal$i.log 2>&1
-    done
-    echo "-----------------------------------------------------------------------" >> out/out.log
-    echo "Completed Usecase - Non-Primitive"
-    echo "Completed Usecase - Non-Primitive" >> out/out.log
+#     echo "-------------------------------Normal Run----------------------------------------" >> out/out.log
+#     for i in 1 2 3  4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+#     do
+#         $DEV_JDK/java -Xverify:none -XX:ValueTypeFlatteningThreshold=100000 -XX:+EnableArrayFlattening -cp size-expt-1.0.jar in.ac.iitmandi.compl.Main >> primitiveInstanceNormal$i.log 2>&1
+#     done
+#
+#     echo "-----------------------------------------------------------------------" >> out/out.log
+#     echo "Completed Usecase - Primitive"
+#     echo "Completed Usecase - Primitive" >> out/out.log
+#
+#     echo "-----------------------------------------------------------------------" >> out/out.log
+#     for i in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
+#     do
+#         $DEV_JDK/java -Xverify:none -XX:ValueTypeFlatteningThreshold=0 -cp size-expt-1.0.jar in.ac.iitmandi.compl.Main >> nonprimitiveInstanceNormal$i.log 2>&1
+#     done
+#     echo "-----------------------------------------------------------------------" >> out/out.log
+#     echo "Completed Usecase - Non-Primitive"
+#     echo "Completed Usecase - Non-Primitive" >> out/out.log
 
 #     echo "-----------------------------------------------------------------------" >> out/out.log
 #     for i in 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19
@@ -92,8 +92,8 @@ echo "-----------------------------------Compiled Run End-----------------------
 #     echo "Completed Usecase - Primitive with static results" >> out/out.log
 
 
-
-echo "Finished Raytracer Normal"
-echo "Finished Raytracer Normal" >> out/out.log
+#
+# echo "Finished Raytracer Normal"
+# echo "Finished Raytracer Normal" >> out/out.log
 
 echo "-----------------------------------Normal Run End------------------------------------" >> out/out.log

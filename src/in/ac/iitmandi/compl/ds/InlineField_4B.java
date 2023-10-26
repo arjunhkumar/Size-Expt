@@ -9,27 +9,19 @@ import in.ac.iitmandi.compl.Utils;
  * @author arjun
  *
  */
-public  primitive class InlineField_64B {
+public primitive class InlineField_4B {
 
 	private long x0;
 	private long x1;
 	private long x2;
 	private long x3;
-	private long x4;
-	private long x5;
-	private long x6;
-	private long x7;
 
 	
-	public InlineField_64B() {
+	public InlineField_4B() {
 		this.x0 = Utils.genRandomLong(4096);
 		this.x1 = Utils.genRandomLong(4096);
 		this.x2 = Utils.genRandomLong(4096);
 		this.x3 = Utils.genRandomLong(4096);
-		this.x4 = Utils.genRandomLong(4096);
-		this.x5 = Utils.genRandomLong(4096);
-		this.x6 = Utils.genRandomLong(4096);
-		this.x7 = Utils.genRandomLong(4096);
 	}
 	
 	/**
@@ -55,29 +47,5 @@ public  primitive class InlineField_64B {
 	 */
 	public long getX3() {
 		return x3;
-	}
-	/**
-	 * @return the x4
-	 */
-	public long getX4() {
-		return x4;
-	}
-	/**
-	 * @return the x5
-	 */
-	public long getX5() {
-		return x5;
-	}
-	/**
-	 * @return the x6
-	 */
-	public long getX6() {
-		return x6;
-	}
-	/**
-	 * @return the x7
-	 */
-	public long getX7() {
-		return x7;
 	}
 }

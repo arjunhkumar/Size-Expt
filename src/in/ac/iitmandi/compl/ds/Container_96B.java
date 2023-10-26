@@ -7,8 +7,9 @@ package in.ac.iitmandi.compl.ds;
  * @author arjun
  *
  */
-public class Container {
+public class Container_96B {
 
+	/** Estimated size of the container: 16 * 6 = 96B*/
 	private InlineField_16B fieldX1;
 	private InlineField_16B fieldY1;
 	private InlineField_16B fieldZ1;
@@ -20,7 +21,7 @@ public class Container {
 	 * @param fieldX
 	 * @param fieldY
 	 */
-	public Container() {
+	public Container_96B() {
 		this.fieldX1 = new InlineField_16B();
 		this.fieldY1 = new InlineField_16B();
 		this.fieldZ1 = new InlineField_16B();
@@ -58,20 +59,6 @@ public class Container {
 	}
 
 	/**
-	 * @return the fieldZ1
-	 */
-	public InlineField_16B getFieldZ1() {
-		return fieldZ1;
-	}
-
-	/**
-	 * @param fieldZ1 the fieldZ1 to set
-	 */
-	public void setFieldZ1(InlineField_16B fieldZ1) {
-		this.fieldZ1 = fieldZ1;
-	}
-
-	/**
 	 * @return the fieldX2
 	 */
 	public InlineField_16B getFieldX2() {
@@ -100,6 +87,20 @@ public class Container {
 	}
 
 	/**
+	 * @return the fieldZ1
+	 */
+	public InlineField_16B getFieldZ1() {
+		return fieldZ1;
+	}
+
+	/**
+	 * @param fieldZ1 the fieldZ1 to set
+	 */
+	public void setFieldZ1(InlineField_16B fieldZ1) {
+		this.fieldZ1 = fieldZ1;
+	}
+
+	/**
 	 * @return the fieldZ2
 	 */
 	public InlineField_16B getFieldZ2() {
@@ -112,5 +113,5 @@ public class Container {
 	public void setFieldZ2(InlineField_16B fieldZ2) {
 		this.fieldZ2 = fieldZ2;
 	}
-	
+
 }
